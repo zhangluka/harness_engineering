@@ -4,7 +4,7 @@
   "description": "Harness Engineering 在实战项目中的落地记录",
   "scripts": {
     "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
+    "docs:build": "node build.js",
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {
