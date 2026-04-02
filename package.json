@@ -1,0 +1,13 @@
+{
+  "name": "harness-engineering",
+  "version": "1.0.0",
+  "description": "Harness Engineering 在实战项目中的落地记录",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.5.0"
+  }
+}

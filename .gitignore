@@ -1,1 +1,4 @@
 /harness-engineering
+/.vitepress
+/node_modules
+/dist
