@@ -17,22 +17,15 @@ async function main() {
 
   function processFile(filePath) {
     let content = fs.readFileSync(filePath, 'utf-8')
-    const fullDomain = DOMAIN + BASE_PATH  // https://s3gw.paasst.cmbchina.cn/srd-xxx/harness01
     const baseWithoutSlash = '/srd-b256fe7e81ec477f-1255000106/harness01'
+    const baseWithSlash = baseWithoutSlash + '/'
 
-    // 先修复 VitePress base 路径缺少斜杠的 bug
+    // 1. 修复 VitePress base 路径缺少斜杠的 bug
     // /srd-xxx/harness01assets -> /srd-xxx/harness01/assets
-    content = content.replace(new RegExp(baseWithoutSlash + '([a-z])', 'g'), baseWithoutSlash + '/$1')
+    content = content.replace(new RegExp(baseWithoutSlash + '([a-z])', 'g'), baseWithSlash + '$1')
 
-    // 统一替换：把所有 base 开头的路径都换成完整域名
-    // 1. href 属性
-    content = content.replace(/href="\/srd-b256fe7e81ec477f-1255000106\/harness01\//g, `href="${fullDomain}/`)
-    // 2. src 属性
-    content = content.replace(/src="\/srd-b256fe7e81ec477f-1255000106\/harness01\//g, `src="${fullDomain}/`)
-    // 3. CSS url()
-    content = content.replace(/url\(\/srd-b256fe7e81ec477f-1255000106\/harness01\/assets\//g, `url(${fullDomain}/assets/`)
-    // 4. JS 中 base 值（确保尾部有斜杠）
-    content = content.replace(/\\"base\\":\s*\\"\/srd-b256fe7e81ec477f-1255000106\/harness01\\"/g, `\\"base\\": \\"${BASE_PATH}/\\"`)
+    // 2. 修复 JS 中 base 值缺少尾部斜杠的问题
+    content = content.replace(/\\"base\\":\s*\\"\/srd-b256fe7e81ec477f-1255000106\/harness01\\"/g, `\\"base\\": \\"${baseWithSlash}\\"`)
 
     fs.writeFileSync(filePath, content)
   }
