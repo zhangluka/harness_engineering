@@ -16,8 +16,8 @@ async function main() {
 
   function processFile(filePath) {
     let content = fs.readFileSync(filePath, 'utf-8')
-    content = content.replace(/href="\//g, `href="${DOMAIN}/`)
-    content = content.replace(/src="\//g, `src="${DOMAIN}/`)
+    content = content.replace(/href="\//g, `href="${DOMAIN}${BASE_PATH}/`)
+    content = content.replace(/src="\//g, `src="${DOMAIN}${BASE_PATH}/`)
     fs.writeFileSync(filePath, content)
   }
 
