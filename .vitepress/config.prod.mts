@@ -1,9 +1,6 @@
 import { defineConfig } from 'vitepress'
-import fs from 'fs'
-import path from 'path'
 
-const BASE_PATH = '/srd-b256fe7e81ec477f-1255000106/harness01'
-const DOMAIN = 'https://s3gw.paasst.cmbchina.cn'
+const BASE_PATH = '/srd-b256fe7e81ec477f-1255000106/harness01/'
 
 export default defineConfig({
   title: 'Harness Engineering',
@@ -32,8 +29,7 @@ export default defineConfig({
         {
           text: '笔记',
           items: [
-            { text: 'OpenAI vs Anthropic', link: '/notes/01-openai-vs-anthropic-harness-analysis' },
-            { text: 'Harness 分析（博客风）', link: '/notes/02-openai-vs-anthropic-harness-analysis-blog-style' }
+            { text: 'OpenAI & Anthropic Harness 分析', link: '/notes/02-openai-vs-anthropic-harness-analysis-blog-style' }
           ]
         }
       ],
@@ -48,7 +44,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/zhangluka/harness_engineering' }
+      { icon: 'github', link: 'https://github.com/zhangluka/harness_engineering' },
     ],
 
     footer: {

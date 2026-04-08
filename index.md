@@ -12,6 +12,9 @@ hero:
     - theme: alt
       text: 快速开始
       link: /tools/
+    - theme: alt
+      text: github
+      link: https://github.com/zhangluka/harness_engineering
 
 features:
   - title: 实战项目
