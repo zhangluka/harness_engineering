@@ -5,6 +5,7 @@
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "node build.js",
+    "docs:build:gh": "vitepress build . --config .vitepress/config.gh.mts",
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {
