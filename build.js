@@ -1,6 +1,6 @@
 const { build } = require('vitepress')
 
-const BASE_PATH = '/srd-b256fe7e81ec477f-1255000106/harness01/'
+const BASE_PATH = '/'
 
 async function main() {
   await build('.', {
