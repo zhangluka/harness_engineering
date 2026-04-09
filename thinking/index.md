@@ -1,4 +1,3 @@
 # 演进思考
 
-- [工具演进路线图](./tool-roadmap.md) — Spec-Driven Development 工具能力补足规划
-- [Harness 工程实践映射](./harness-practice-mapping.md) — 基于 Harness Engineering 框架的工具实践路径
+- [建设行动计划](./action-plan.md) — 具体可执行的建设步骤与验收标准

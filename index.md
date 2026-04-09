@@ -32,6 +32,10 @@ features:
   - title: 过程笔记
     details: 记录落地过程中的思考、踩坑与经验总结，持续迭代完善
     link: /notes/
+
+  - title: 演进思考
+    details: 建设行动计划与思考演进，规划未来发展路径
+    link: /thinking/
 ---
 
 ## 建设规划
@@ -45,6 +49,7 @@ features:
 | **templates/** | 模板积累 | AGENTS.md、harness 配置模板 |
 | **concepts/** | 概念笔记 | 核心概念选择性记录 |
 | **notes/** | 过程笔记 | 踩坑经验与最佳实践 |
+| **thinking/** | 演进思考 | 建设行动计划与思考演进 |
 
 ## 学习资源
 
