@@ -1,6 +1,6 @@
 # 工具
 
-## OpenSpec CS
+## OpenSpec 
 
 基于 [OpenSpec](https://github.com/Fission-AI/OpenSpec) 开源项目内化的 SDD (Spec-Driven Development) 工具。
 
