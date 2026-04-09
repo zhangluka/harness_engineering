@@ -19,6 +19,9 @@ ph-harness-engineering/
 ├── concepts/              # 核心概念（选择性记录，不求全）
 │   └── ...
 │
+├── thinking/              # 演进思考
+│   └── ...
+│
 ├── projects/              # 实战项目（核心）
 │   ├── project-1/         # 每个项目一个目录
 │   │   ├── README.md      # 项目背景、目标
@@ -45,6 +48,8 @@ ph-harness-engineering/
 ## 建设规划
 
 - **以项目为主线**：围绕真实项目展开，而非罗列概念
+- **概念沉淀**：`concepts/` 记录稳定的核心定义
+- **演进思考**：`thinking/` 记录动态的路线图和方向规划
 - **工具沉淀**：`tools/` 目录记录可复用工具
 - **模板积累**：`templates/` 目录提供可复制模板
 - **反馈下沉**：每个项目下的 `feedback/` 记录踩坑
@@ -56,6 +61,7 @@ ph-harness-engineering/
 - 分享工具和框架（`tools/`）
 - 提供可复用模板（`templates/`）
 - 补充过程笔记（`notes/`）
+- 分享演进思考（`thinking/`）
 
 ## 学习资源
 
