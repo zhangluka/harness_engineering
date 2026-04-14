@@ -46,7 +46,7 @@
 
 ### 什么是 Archon？
 
-Archon 是一个 **AI Coding Harness Builder**（AI 编程工作流/马具构建器），专注于把 AI 编码过程变成**可重复、可控、工程化的 YAML �**作流**。
+Archon 是一个 **AI Coding Harness Builder**（AI 编程工作流/马具构建器），专注于把 AI 编码过程变成**可重复、可控、工程化的 YAML 作流**。
 
 ### 核心能力
 
