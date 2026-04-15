@@ -40,10 +40,18 @@ export default defineConfig({
           text: '工具',
           items: [
             { text: '工具列表', link: '/tools/' },
-            { text: 'Harness Proposal', link: '/tools/harness-proposal' },
             { text: 'OpenSpec', link: '/tools/openspec' },
             { text: 'Ralph Loop', link: '/tools/ralph-loop' },
             { text: 'Archon', link: '/tools/archon/' }
+          ]
+        },
+        {
+          text: 'Harness 开发体系',
+          items: [
+            { text: '总览', link: '/tools/harness-development/' },
+            { text: '技术架构方案', link: '/tools/harness-development/proposal' },
+            { text: '第三方项目分析', link: '/tools/harness-development/third-party' },
+            { text: '产品形态设计', link: '/tools/harness-development/product' }
           ]
         }
       ],
