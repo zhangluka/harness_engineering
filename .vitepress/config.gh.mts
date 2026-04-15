@@ -39,19 +39,10 @@ export default defineConfig({
         {
           text: '工具',
           items: [
-            { text: '工具列表', link: '/tools/' },
             { text: 'OpenSpec', link: '/tools/openspec' },
             { text: 'Ralph Loop', link: '/tools/ralph-loop' },
-            { text: 'Archon', link: '/tools/archon/' }
-          ]
-        },
-        {
-          text: 'Harness 开发体系',
-          items: [
-            { text: '总览', link: '/tools/harness-development/' },
-            { text: '技术架构方案', link: '/tools/harness-development/proposal' },
-            { text: '第三方项目分析', link: '/tools/harness-development/third-party' },
-            { text: '产品形态设计', link: '/tools/harness-development/product' }
+            { text: 'Archon', link: '/tools/archon/' },
+            {text: "Harness 开发体系", link: "/tools//harness-development"}
           ]
         }
       ],
@@ -68,6 +59,17 @@ export default defineConfig({
           text: '演进思考',
           items: [
             { text: '建设行动计划', link: '/thinking/action-plan' }
+          ]
+        }
+      ],
+      '/tools/harness-development/': [
+        {
+          text: 'Harness 开发体系',
+          items: [
+            { text: '产品形态设计', link: '/tools/harness-development/product' },
+            { text: '总览', link: '/tools/harness-development/' },
+            { text: '技术架构方案', link: '/tools/harness-development/proposal' },
+            { text: '第三方项目分析', link: '/tools/harness-development/third-party' },
           ]
         }
       ]
