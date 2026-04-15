@@ -4,7 +4,7 @@ Harness 工程体系中的核心工具集。
 
 ## 核心工具
 
-### [Harness Proposal](./harness-proposal.md)
+### [Harness Development](./harness-development/index.md)
 
 Harness 体系完整构建方案，涵盖六大组件设计：
 
@@ -55,7 +55,7 @@ Superpowers (语义验证)
 
 ## 快速导航
 
-- [完整方案](./harness-proposal.md) - Harness 体系构建蓝图
+- [完整方案](./harness-development/index.md) - Harness 体系构建蓝图
 - [OpenSpec](./openspec.md) - 规范驱动开发
 - [Ralph Loop](./ralph-loop.md) - 自动变更执行
 - [Archon](./archon/) - 工作流构建器
