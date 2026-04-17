@@ -36,7 +36,8 @@ export default defineConfig({
           items: [
             { text: 'OpenAI vs Anthropic Harness 分析', link: '/notes/01-openai-vs-anthropic-harness-analysis' },
             { text: 'OpenAI & Anthropic Harness 分析（博客风格）', link: '/notes/02-openai-vs-anthropic-harness-analysis-blog-style' },
-            { text: 'Archon 笔记', link: '/notes/archon' }
+            { text: 'Archon 笔记', link: '/notes/archon' },
+            { text: 'cc-spex 项目体验分析总结', link: '/notes/use-cc-spex-summary.md' },
           ]
         }
       ],

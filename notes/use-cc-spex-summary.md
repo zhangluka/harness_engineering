@@ -2,6 +2,8 @@
 
 ## 项目概览
 
+项目地址：https://github.com/rhuss/cc-spex
+
 首先形态上，**cc-spex** 是一个 **Claude Code 插件**：用于扩展 Spec-Kit，实现 **规范驱动开发（Specification-Driven Development）**。
 
 **核心理念：** 规格是唯一真实来源（Specs as Single Source of Truth）
