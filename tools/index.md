@@ -22,6 +22,13 @@ Harness 体系完整构建方案，涵盖六大组件设计：
 - 定位：Spec-driven development for AI coding assistants
 - 特点：无需 API Key、支持 Brownfield 开发、轻量级工作流
 
+### [Change Log](./changelog.md)
+
+项目变更记录，采用 OpenSpec 风格的变更管理。
+
+- 记录所有变更的历史和状态
+- 包含变更的提案、设计和任务清单
+
 ### [Ralph Loop](./ralph-loop.md)
 
 结合内化 PhSpec 的 Ralph 自动化执行工具。
